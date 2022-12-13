@@ -3,9 +3,10 @@ package connection
 import (
 	"database/sql"
 	"fmt"
-	"libraries/dataaccess/lib/client/connection/config"
-	"libraries/logging/lib/constants"
-	"libraries/logging/lib/logger"
+
+	"github.com/swethabhageerath/dataaccess/lib/client/connection/config"
+	"github.com/swethabhageerath/logging/lib/constants"
+	"github.com/swethabhageerath/logging/lib/logger"
 )
 
 type Postgres struct {
