@@ -3,9 +3,10 @@ package config
 import (
 	"context"
 	"fmt"
-	"libraries/logging/lib/constants"
-	"libraries/logging/lib/logger"
-	"libraries/utilities/lib/utilities/helpers"
+
+	"github.com/swethabhageerath/logging/lib/constants"
+	"github.com/swethabhageerath/logging/lib/logger"
+	"github.com/swethabhageerath/utilities/lib/utilities/helpers"
 )
 
 type PgConfig struct {
@@ -31,6 +32,6 @@ func (p *PgConfig) Set(ctx context.Context, env helpers.IEnvironmentHelper, logg
 }
 
 func (p *PgConfig) String() string {
-	return fmt.Sprintf("host=%s port=%d user=%s password=%s dbname=%s sslmode=disable",
+	return fmt.Sprintf("host=%s port=%s user=%s password=%s dbname=%s sslmode=disable",
 		p.host, p.port, p.user, p.password, p.dbname)
 }

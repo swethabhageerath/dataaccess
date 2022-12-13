@@ -1,3 +1,5 @@
+github.com/pkg/errors v0.9.1 h1:FEBLx1zS214owpjy7qsBeixbURkuhQAwrK5UwLGTwt4=
+github.com/pkg/errors v0.9.1/go.mod h1:bwawxfHBFNV+L2hUp1rHADufV3IMtnDRdf1r5NINEl0=
 github.com/swethabhageerath/logging v1.0.1 h1:XBcnFwTDAL7HH+x/ljofFAHvtUsDqQ+cGZ5VS6kqUQA=
 github.com/swethabhageerath/logging v1.0.1/go.mod h1:rKDwUTYH06e/fKFUDbRx7xLdRA4ydG3IuIWEzL9aDGQ=
 github.com/swethabhageerath/utilities v1.0.13 h1:ICxTu5SaJZzlqg6BkqXlw8IDH4j1XXzYpN+XO86s0w8=
