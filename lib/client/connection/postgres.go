@@ -5,6 +5,7 @@ import (
 	"database/sql"
 	"fmt"
 
+	_ "github.com/lib/pq"
 	"github.com/swethabhageerath/dataaccess/lib/client/connection/config"
 	"github.com/swethabhageerath/logging/lib/constants"
 	"github.com/swethabhageerath/logging/lib/logger"
